@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 自定义控件的名称 -->
+    <declare-styleable name="TitleBar">
+
+        <!-- 自定义的属性名称 和对应的单位 -->
+        <attr name="logoName" format="string|reference" />
+        <attr name="logoSize" format="dimension" />
+        <attr name="logoColor" format="color" />
+        <attr name="logoIcon" format="reference" />
+
+        <attr name="titleText" format="string|reference" />
+        <attr name="titleSize" format="dimension" />
+        <attr name="titleColor" format="color" />
+        <attr name="titleShow" format="boolean" />
+
+
+        <attr name="icon1" format="reference" />
+
+        <attr name="icon2" format="reference" />
+        <attr name="icon2Name" format="string|reference" />
+        <attr name="icon2Size" format="dimension" />
+        <attr name="icon2Color" format="color" />
+
+        <attr name="backgroud" format="color|reference" />
+
+        <attr name="icon2NumberText" format="string|reference" />
+        <!--<attr name="showBackOrLogo">
+            <enum name="logo" value="0" />
+            <enum name="back" value="1" />
+            <enum name="gone" value="2" />
+        </attr>-->
+    </declare-styleable>
+
+</resources>

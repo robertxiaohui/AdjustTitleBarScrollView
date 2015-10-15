@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="tv_pressed">#cccccc</drawable>
+
+    <drawable name="week_day_click">#2196f3</drawable>
+    <drawable name="week_day_normal">#cccccc</drawable>
+
+    <color name="wheel_timebtn_nor">#54a3fa</color>
+    <color name="wheel_timebtn_pre">#CCCCCC</color>
+
+    <color name="primary">#2196F3</color>
+    <color name="primary_dark">#1976D2</color>
+    <color name="color_accent">#00C853</color>
+
+    <color name="split_line_color">#cccccc</color>
+    <color name="image_back">#333333</color>
+    <color name="action_bt_bg">#30888888</color>
+
+    <color name="tips_color">#ffa726</color>
+    <color name="content_bg">#424242</color>
+    <color name="brief_white">#ffffff</color>
+    <color name="brief_grey">#212121</color>
+    <color name="split_bg_grey">#cccccc</color>
+    <color name="image_pager_bg">#212121</color>
+    <color name="msg_info">#FDE04F</color>
+
+
+    <color name="story_text_bg">#20757575</color>
+    <color name="story_tag_bg">#42bd41</color>
+    <color name="txt_533738">#533738</color>
+
+
+    <!-- main color for drawable-v21/my_ripple -->
+    <color name="my_color_highlight">#a0e0e0e0</color>
+    <!-- main color for drawable/my_ripple -->
+    <color name="my_color_highlight_press">#BDBDBD</color>
+    <color name="my_color_highlight_focus">#BDBDBD</color>
+
+
+    <color name="regist_bg">#E6E6E6</color>
+    <color name="bg_cf">#CFCFCF</color>
+    <color name="bg_97">#979797</color>
+    <color name="bg_98">#9f989898</color>
+    <color name="bg_dd">#DDDDDD</color>
+    <color name="bg_f2">#f2f2f2</color>
+    <color name="bg_f6">#f6f6f6</color>
+    <color name="bg_f1">#f1f1f1</color>
+
+    <color name="txt_5c">#5c5c5c</color>
+    <color name="txt_e6">#E6E6E6</color>
+    <color name="txt_a1">#A1A1A1</color>
+    <color name="txt_6e">#6E6E6E</color>
+    <color name="txt_03">#030303</color>
+    <color name="txt_9a">#9a9a9a</color>
+    <color name="txt_9b">#9b9b9b</color>
+    <color name="txt_93">#939393</color>
+    <color name="txt_4a">#4a4a4a</color>
+    <color name="txt_3a">#3a3a3a</color>
+    <color name="txt_a2">#a2a2a2</color>
+    <color name="txt_c9">#c9c9c9</color>
+    <color name="txt_c1">#c1c1c1</color>
+    <color name="txt_5aa3e8">#5aa3e8</color>
+    <color name="txt_4a90e2">#4a90e2</color>
+    <color name="txt_88">#888888</color>
+    <color name="txt_888AA1">#888AA1</color>
+    <color name="txt_f93">#FF9933</color>
+
+    <color name="txt_66">#666666</color>
+    <color name="txt_33">#333333</color>
+    <color name="txt_544E4A">#544E4A</color>
+    <color name="txt_ff3366">#FF3366</color>
+    <color name="txt_ff9900">#FF9900</color>
+    <color name="txt_3c3a3a">#3c3a3a</color>
+    <color name="ripple">#F06292</color>
+    <color name="accent">#E91E63</color>
+    <color name="accent_pressed">#C2185B</color>
+    <color name="enter">#754100</color>
+    <color name="divider_bg">#C5C5C5</color>
+    <color name="bg">#f2f2f2</color>
+    <color name="cursor_bg">#000000</color>
+    <color name="divider_bg_dd">#DDDDDD</color>
+
+    <color name="btn_ff3366">#ff3366</color>
+    <color name="btn_c1c1c1">#c1c1c1</color>
+
+    <color name="titlebar_bg">#FFE63D</color>
+    <color name="titlebar_bg1">#ffffff</color>
+    <color name="titlebar_title">#4c3f3f</color>
+    <color name="titlebar_logo">#575757</color>
+    <color name="titlebar_right2">#4c3f3f</color>
+    <color name="bg_e4ebf0">#e4ebf0</color>
+
+    <!--serach Filter style-->
+    <color name="popup_main_background">#b0000000</color>
+
+    <color name="choose_eara_item_press_color">#FfFfFf</color>
+    <color name="choose_region">#f1f1f1</color>
+    <drawable name="choose_region_selected">#FFFFFF</drawable>
+    <color name="no_color">#00000000</color>
+    <item name="choose_region_press" type="color">#FFFFFF</item>
+    <item name="choose_region_nor" type="color">#f4f4f4</item>
+
+
+
+    <color name="line_DADADA">#DADADA</color>
+    <color name="border_3a">#a1a1a1</color>
+
+
+    <color name="dialog_bg">#EBEBEB</color>
+
+    <color name="red">#ff0000</color>
+
+
+    <color name="menu_bg">#ffffff</color>
+    <color name="menu_txt_nor">#9A9A9A</color>
+    <color name="menu_txt_select">#000000</color>
+
+
+    <color name="sex_press">#F8F8F8</color>
+    <color name="sex_nor">#4784E4</color>
+
+    <item name="white" type="color">#FFFFFF</item>
+    <item name="white_transparent" type="color">#00ffffff</item>
+    <!-- TradeTips-->
+    <color name="tradetips_nickname">#4c3f3f</color>
+    <color name="tradetips_msg">#9b9b9b</color>
+
+    <item name="blue" type="color">#FF33B5E5</item>
+    <item name="orange" type="color">#FFFFBB33</item>
+    <item name="green" type="color">#FF99CC00</item>
+    <item name="purple" type="color">#FFAA66CC</item>
+    <item name="black" type="color">#FF000000</item>
+    <item name="txt_04" type="color">#040404</item>
+
+
+    <item name="btn_account_press" type="color">#5AAEEE</item>
+    <item name="btn_account_nor" type="color">#FDFDFE</item>
+
+    <color name="userinfo_popup_bg">#f2f2f2</color>
+
+    <color name="rental_status_ing">#ff00b9ff</color>
+    <color name="rental_status_warn">#ffff3366</color>
+
+    <color name="btn_9b">#9b9b9b</color>
+    <color name="btn_ff">#ff3366</color>
+    <color name="btn_5aa">#5AAFEE</color>
+    <color name="btn_f0">#F0A724</color>
+    <color name="btn_search">#4785E5</color>
+
+    <color name="reward_bg01">#FDE53D</color>
+    <color name="reward_bg02">#FF3366</color>
+
+    <color name="reward_tips_bg">#FFF0A7</color>
+    <color name="reward_tips_text">#753f0f</color>
+</resources>
