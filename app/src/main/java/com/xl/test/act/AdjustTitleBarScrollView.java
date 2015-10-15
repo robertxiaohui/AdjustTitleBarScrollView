@@ -15,6 +15,7 @@ import android.widget.ScrollView;
  */
 public class AdjustTitleBarScrollView extends ScrollView implements OnScrollListener {
     public View mTitleBar;
+    public String mColor = "ffffff";
 
     private static final String TAG = "AdjustTitleBarScrollVie";
 
@@ -48,7 +49,7 @@ public class AdjustTitleBarScrollView extends ScrollView implements OnScrollList
                 s = "00";
             }
             Log.d(TAG, "l: " + l + "  t: " + t + "  oldl: " + oldl + "  oldt: " + oldt + "  color: " + s + "ffff22");
-            setTitleBarBg(Color.parseColor("#" + s + "ffff22"));
+            setTitleBarBg(Color.parseColor("#" + s + mColor));
         }
     }
 
@@ -56,7 +57,7 @@ public class AdjustTitleBarScrollView extends ScrollView implements OnScrollList
     /**
      * 显示title浮动栏
      */
-    public void setTitleBarBg(int color) {
+    private void setTitleBarBg(int color) {
         if (mTitleBar != null)
             mTitleBar.setBackgroundColor(color);
     }
@@ -68,6 +69,19 @@ public class AdjustTitleBarScrollView extends ScrollView implements OnScrollList
      */
     public void setTitleBar(View titleBar) {
         this.mTitleBar = titleBar;
+    }
+
+    /**
+     * 设置titlebar的 颜色
+     *
+     * @param color color格式:RRGGBB
+     */
+    public void setTitleBarColor(String color) {
+        if (color != null) {
+            this.mColor = color;
+        } else {
+            this.mColor = "ffffff";
+        }
     }
 
 }
