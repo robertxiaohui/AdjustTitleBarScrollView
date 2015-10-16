@@ -11,6 +11,7 @@ import android.widget.Toast;
 
 import com.xl.test.MyCountUtil;
 import com.xl.test.R;
+import com.xl.test.view.AdjustTitleBarScrollView;
 
 /**
  * Created by Administrator on 2015/10/14.

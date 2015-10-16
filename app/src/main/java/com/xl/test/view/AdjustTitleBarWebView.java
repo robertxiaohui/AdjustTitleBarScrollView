@@ -1,10 +1,11 @@
-package com.xl.test.act;
+package com.xl.test.view;
 
 import android.content.Context;
 import android.graphics.Color;
 import android.util.AttributeSet;
 import android.util.Log;
 import android.view.View;
+import android.webkit.WebView;
 import android.widget.AbsListView;
 import android.widget.AbsListView.OnScrollListener;
 import android.widget.ScrollView;
@@ -13,17 +14,16 @@ import android.widget.ScrollView;
  * Created by Administrator on 2015/10/14.
  * 滑动调节titlebar的背景颜色
  */
-public class AdjustTitleBarScrollView extends ScrollView implements OnScrollListener {
+public class AdjustTitleBarWebView extends WebView implements OnScrollListener {
     public View mTitleBar;
-    public String mColor = "ffffff";
 
     private static final String TAG = "AdjustTitleBarScrollVie";
 
-    public AdjustTitleBarScrollView(Context context) {
+    public AdjustTitleBarWebView(Context context) {
         this(context, null);
     }
 
-    public AdjustTitleBarScrollView(Context context, AttributeSet attrs) {
+    public AdjustTitleBarWebView(Context context, AttributeSet attrs) {
         super(context, attrs);
     }
 
@@ -49,7 +49,8 @@ public class AdjustTitleBarScrollView extends ScrollView implements OnScrollList
                 s = "00";
             }
             Log.d(TAG, "l: " + l + "  t: " + t + "  oldl: " + oldl + "  oldt: " + oldt + "  color: " + s + "ffff22");
-            setTitleBarBg(Color.parseColor("#" + s + mColor));
+            setTitleBarBg(Color.parseColor("#" + s + "ffffff"));
+//            setTitleBarBg(Color.parseColor("#00ffffff"));
         }
     }
 
@@ -57,9 +58,8 @@ public class AdjustTitleBarScrollView extends ScrollView implements OnScrollList
     /**
      * 显示title浮动栏
      */
-    private void setTitleBarBg(int color) {
-        if (mTitleBar != null)
-            mTitleBar.setBackgroundColor(color);
+    public void setTitleBarBg(int color) {
+       // mTitleBar.(color);
     }
 
     /**
@@ -67,21 +67,8 @@ public class AdjustTitleBarScrollView extends ScrollView implements OnScrollList
      *
      * @param titleBar
      */
-    public void setTitleBar(View titleBar) {
+    public void setTitleBar(TitleBar titleBar) {
         this.mTitleBar = titleBar;
-    }
-
-    /**
-     * 设置titlebar的 颜色
-     *
-     * @param color color格式:RRGGBB
-     */
-    public void setTitleBarColor(String color) {
-        if (color != null) {
-            this.mColor = color;
-        } else {
-            this.mColor = "ffffff";
-        }
     }
 
 }

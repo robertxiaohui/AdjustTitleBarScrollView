@@ -3,7 +3,7 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent">
 
-    <com.xl.test.act.AdjustTitleBarScrollView
+    <com.xl.test.view.AdjustTitleBarScrollView
         android:id="@+id/my_scrollview"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent">
@@ -13,10 +13,17 @@
             android:layout_height="match_parent"
             android:orientation="vertical">
 
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:scaleType="fitXY"
+                android:src="@mipmap/test" />
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="100dp"
                 android:text="aaaaaaaaa" />
+
 
             <TextView
                 android:layout_width="match_parent"
@@ -63,7 +70,7 @@
                 android:text="动画" />
         </LinearLayout>
 
-    </com.xl.test.act.AdjustTitleBarScrollView>
+    </com.xl.test.view.AdjustTitleBarScrollView>
 
     <LinearLayout
         android:id="@+id/title_bar"
@@ -72,9 +79,9 @@
 
         <TextView
             android:layout_width="match_parent"
-            android:layout_height="100dp"
+            android:layout_height="50dp"
             android:gravity="center"
-            android:textColor="@android:color/black"
-            android:text="这是titlebar" />
+            android:text="这是titlebar"
+            android:textColor="@android:color/black" />
     </LinearLayout>
 </RelativeLayout>
